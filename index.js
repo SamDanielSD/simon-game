@@ -71,7 +71,7 @@ function repeat(currentLevel){
 
 function startOver(){
   level = 1;
-  $("#level-title").html("<h6>WRONG<H6></br><h6> Press any button to restart<h6>");
+  $("#level-title").html("<h6><center>WRONG</center> Press any button to restart</h6>");
   started = false;
   $("body").addClass("game-over");
 
